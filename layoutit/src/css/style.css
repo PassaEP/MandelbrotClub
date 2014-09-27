@@ -1,0 +1,151 @@
+
+.navbar-default {
+	background-color: #256BE4;
+	color: white;
+	
+}
+
+.navbar-default .navbar-brand {
+	color: white;
+	font-family: 'Inconsolata';
+	font-size: 25px;
+}
+
+
+
+.navbar-default {
+	background-color: #256BE4;
+	color: white;
+	
+}
+
+/* This above edits the navbar itself. */
+.navbar-default .navbar-brand {
+	color: white;
+	font-family: 'Inconsolata';
+	font-size: 25px;
+}
+
+/* This edits the navbar's title. */
+
+body {
+	background-image: http://mhhs.lammersvilleusd.net/_/rsrc/1394750589985/home/text%20logo%20with%20image.png(MHHS.jpg);
+}
+footer {
+	font-size: 10px;
+	color: white;
+	background-color: #707070;
+	float: bottom;
+	bottom: -50px;
+	height: 50px;
+	left: 0;
+	position: absolute;
+	right: 0;
+}
+
+h3 {
+	font-family: 'Lobster';
+	font-size: 30px;
+}
+
+.text-left {
+	padding: 50px;
+	font-family: 'Oswald';
+	font-size: 20px;
+	
+}
+
+/* ^ For the second 2 bodies. . */
+
+.navbar-default .navbar-nav>li>a {
+	color: white;
+	font-family: 'Inconsolata';
+	font-size: 20px;
+}
+
+/* ^ Navbar code for its format. */
+
+.jumbotron {
+	padding: 80px;
+}
+	
+
+h3 {
+	font-family: 'Lobster';
+	font-size: 30px;
+}
+
+.text-left {
+	padding: 50px;
+	font-family: 'Oswald';
+	font-size: 20px;
+	background-color: #eee;
+	
+}
+
+/* ^ For the second 2 bodies. . */
+
+.navbar-default .navbar-nav>li>a {
+	color: white;
+	font-family: 'Inconsolata';
+}
+
+/* ^ Navbar code for its format. */
+
+.jumbotron {
+	padding: 80px;
+}
+
+iframe {
+	float: bottom;
+	top-margin: 500px;
+	padding: 80px;
+	background-color: #eee;
+}
+
+/*^This is for the calendar and join page!*/
+
+
+h2 {
+	position: absolute;
+	top: 75px;
+	right: 10px;
+	left: 15px;
+	text-align: center;
+	width: 300px;
+}
+
+.textframe {
+	font-family: Lobster;
+	color: white;
+	background: rgb(0, 0, 0);
+	background: rgba(0, 0, 0, 0.7);
+	text-align: center;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+
+}
+
+/* Events page. ^ */
+
+
+.thumbnail {
+    position: relative;
+    
+}
+
+.square {
+	position: relative;
+	display: inline block;
+	padding-right: 50px;
+	padding-top: 40px;
+	padding-bottom: 40px;
+}
+
+
+
+
+
+
+

@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<!-- Tryin' to look under the hood? Tell Passa the secret code message you find. if you dare. -->
+<head>
+  <meta charset="utf-8">
+  <title>MHHS Mandelbrot Club</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="">
+  <meta name="author" content="The MHHS Math & Comp Sci Club">
+
+	<!--link rel="stylesheet/less" href="less/bootstrap.less" type="text/css" /-->
+	<!--link rel="stylesheet/less" href="less/responsive.less" type="text/css" /-->
+	<!--script src="js/less-1.3.3.min.js"></script-->
+	<!--append ‘#!watch’ to the browser URL, then refresh the page. -->
+	
+	<link href="css/bootstrap.min.css" rel="stylesheet">
+	<link href="css/style.css" rel="stylesheet">
+	<link href='http://fonts.googleapis.com/css?family=Lobster|Roboto|Oswald|Inconsolata|Share+Tech+Mono' rel='stylesheet' type='text/css'>
+	<!-- Google font styles.. We use lobster, oswald, sharetechmono, and Inconsolata. If curious, ask passa. -->
+	
+  <!-- HTML5 shim, for IE6-8 support of HTML5 elements -->
+  <!--[if lt IE 9]>
+    <script src="js/html5shiv.js"></script>
+  <![endif]-->
+
+  <!-- Fav and touch icons -->
+  <link rel="apple-touch-icon-precomposed" sizes="144x144" href="img/apple-touch-icon-144-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="114x114" href="img/apple-touch-icon-114-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" sizes="72x72" href="img/apple-touch-icon-72-precomposed.png">
+  <link rel="apple-touch-icon-precomposed" href="img/apple-touch-icon-57-precomposed.png">
+  <link rel="shortcut icon" href="https://sites.google.com/a/lammersvilleusd.net/mhhs/_/rsrc/1406220703959/favicon.ico">
+  
+	<script type="text/javascript" src="js/jquery.min.js"></script>
+	<script type="text/javascript" src="js/bootstrap.min.js"></script>
+	<script type="text/javascript" src="js/scripts.js"></script>
+</head>
+
+<body>
+<div class="container">
+	<div class="row clearfix">
+		<div class="col-md-12 column">
+			<nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+				<div class="navbar-header">
+					 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1"> <span class="sr-only">Toggle navigation</span><span class="icon-bar"></span><span class="icon-bar"></span><span class="icon-bar"></span></button> <a class="navbar-brand" href="index.html">MHHS Mandelbrot Math &amp; Programming Club</a>
+				</div>
+				
+				<div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+					<ul class="nav navbar-nav">
+						<li class="active">
+							<a href="join.html">Join!</a>
+						</li>
+						<li>
+							<a href="calendar.html">Calendar</a>
+						</li>
+						<li class="dropdown">
+							 <a href="events.html" class="dropdown-toggle" data-toggle="dropdown">Events<strong class="caret"></strong></a>
+							<ul class="dropdown-menu">
+								<li>
+									<a href="#">Action</a>
+								</li>
+								<li>
+									<a href="#">Another action</a>
+								</li>
+								<li>
+									<a href="#">Something else here</a>
+								</li>
+								<li class="divider">
+								</li>
+								<li>
+									<a href="#">Separated link</a>
+								</li>
+								<li class="divider">
+								</li>
+								<li>
+									<a href="#">One more separated link</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+					<ul class="nav navbar-nav navbar-right">
+						<li>
+							<a href="#">About Us</a>
+						</li>
+						<li class="dropdown">
+							 <a href="#" class="dropdown-toggle" data-toggle="dropdown">Resources<strong class="caret"></strong></a>
+							<ul class="dropdown-menu">
+								<li>
+									<a href="#">Action</a>
+								</li>
+								<li>
+									<a href="#">Another action</a>
+								</li>
+								<li>
+									<a href="#">Something else here</a>
+								</li>
+								<li class="divider">
+								</li>
+								<li>
+									<a href="#">Separated link</a>
+								</li>
+							</ul>
+						</li>
+					</ul>
+				</div>
+				
+			</nav>
+			
+			<!--The below code is where the real stuff starts. "-->
+			
+		<div class="jumbotron">
+			<h1 class="text-center" style="font-family: Lobster;">
+				Events
+			</h1>
+			<p class="text-center" style="font-family: Oswald; font-size: 200%;">
+				Yeah, we're going to have plenty of fun here.
+			</p>
+		</div>
+		
+<!--- Reminder, put a location marker here later-->
+<h1 class="text-left" style="font-family: Roboto; background-color: #8C1515; color: white; font-size: 30px;">Possible Math Competitions</h1>
+	<div class="row">
+		
+		<div class="col-sm-6 col-md-4">
+				<img class="square" src="http://bmt.berkeley.edu/static/img/bmt_2013_small.jpg"  height="250px" width="400px" alt=""/>
+				<div class="caption">
+					<h2 class="textframe">The Berkeley Math Tournament</h2>
+				</div>
+		</div>
+		
+		<div class="col-sm-6 col-md-4">
+				<img class="square" src="http://keanxchange.com/sites/default/files/field/image/KX-MathCompetiton1.jpg" height="250px" width="400px" alt=""/>
+				<div class="caption">
+					<h2 class="textframe">AMC 10</h2>
+				</div>
+		</div>
+		
+		<div class="col-sm-6 col-md-4">
+		  <div class="square" height="250px" width="400px">
+		      <h2 class="textframe">Stay Tuned For More!</h2>
+		  </div>
+		</div>
+		
+	</div>
+		<!--End of competitions section. Begin the part about Comp Sci. Yay?-->
+		
+<h1 class="text-left" style="font-family: Share Tech Mono; background-color: #008000; color: white; font-size: 30px;">Possible Programming Competitions</h1>
+  <div class="row">
+    
+    <div class="col-sm-6 col-md-4">
+      <img class="square" src="http://teenhacks.paperplane.io/img/logo-max.png" height="250px" width="auto" alt=""/>
+    </div>
+    
+    <div class="col-sm-6 col-md-4">
+      <img class="square" src="http://www.usaco.org/oldsite/2009/cow2009a.gif" height="250px" width="auto" alt=""/>
+    </div>
+    
+    <div class="col-sm-6 col-md-4">
+      <img class="square" src="http://www.hshacks.com/img/hshacksLogo.png" height="250px" width="auto" alt=""/>
+    </div>
+    
+  </div>
+
+<h1 class="text-left" style="font-family: Oswald; background-color: black; color: white; font-size: 30px;">Possible Field Trips!</h1>
+	<div class="row">
+	  
+	  <div class="col-sm-6 col-md-4">
+	    <img class="square" src="http://static.guim.co.uk/sys-images/Guardian/About/General/2011/4/6/1302111529437/ADOBE-SYSTEMS-007.jpg" height="250px" width="auto" alt=""/>
+	    <div class="caption">
+	      <h2 class="textframe">Adobe Systems</h2>
+	    </div>
+	  </div>
+	  
+    <div class="col-sm-6 col-md-4">
+		  <div class="square" height="250px" width="400px">
+		      <h2 class="textframe">Stay Tuned For More!</h2>
+		  </div>
+		</div>
+	
+	  
+	</div>
+			
+			
+			  
+			</div>
+		</div>
+	</div>
+</body>
+</html>
